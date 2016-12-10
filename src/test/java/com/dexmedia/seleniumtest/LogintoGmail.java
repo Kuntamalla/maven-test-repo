@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
 import com.dexmedia.pages.Login_Page;
@@ -26,12 +27,14 @@ public class LogintoGmail {
 	@BeforeClass
 	public void setUp() throws Exception {
 		System.out.println("Browser initiating");
-		File file = new File("src/test/resources/chromedriver.exe");
-		System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
+		//File file = new File("src/test/resources/chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
 		System.out.println("After Browser initiating");
 		
-		driver = new ChromeDriver();
+		driver = new SafariDriver();
 		System.out.println("Chrome Driver Called");
+		
+		Thread.sleep(5000);
 		//driver = new FirefoxDriver();
 		File propertyfile = new File(
 				"src/test/resources/Execution_Parameters.properties");
