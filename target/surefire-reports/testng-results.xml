@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3790" started-at="2016-12-10T00:22:01Z" finished-at="2016-12-10T00:22:05Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="3790" started-at="2016-12-10T00:22:01Z" finished-at="2016-12-10T00:22:05Z">
+      <class name="com.dexmedia.seleniumtest.LogintoGmail">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dexmedia.seleniumtest.LogintoGmail@366e2eef]" name="setUp" is-config="true" duration-ms="1601" started-at="2016-12-09T16:22:01Z" finished-at="2016-12-09T16:22:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testbookie()[pri:0, instance:com.dexmedia.seleniumtest.LogintoGmail@366e2eef]" name="testbookie" duration-ms="2184" started-at="2016-12-09T16:22:03Z" finished-at="2016-12-09T16:22:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testbookie -->
+      </class> <!-- com.dexmedia.seleniumtest.LogintoGmail -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

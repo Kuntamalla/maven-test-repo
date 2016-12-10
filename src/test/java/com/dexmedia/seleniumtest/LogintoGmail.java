@@ -52,9 +52,14 @@ public class LogintoGmail {
 	public void testbookie() throws Exception {
 		// prop.load(Logintest.class.getResourceAsStream("/"+"Execution_Parameters"));
 		Login_Page loginpage = new Login_Page(driver);
-		homepage HomePage=loginpage.navigatetoapplication(prop.getProperty("URL"));
-		PasswordPage passwordpage=HomePage.EnterUserNameEmail(prop.getProperty("User_Name"));
-		MailBoxPage mailboxpage=passwordpage.EnterPassword(prop.getProperty("Password"));
+		//homepage HomePage=loginpage.navigatetoapplication(prop.getProperty("URL"));
+		homepage HomePage=loginpage.navigatetoapplication("http://www.gmail.com");
+
+		//PasswordPage passwordpage=HomePage.EnterUserNameEmail(prop.getProperty("User_Name"));
+		PasswordPage passwordpage=HomePage.EnterUserNameEmail("shirishakuntamalla@gmail.com");
+		//MailBoxPage mailboxpage=passwordpage.EnterPassword(prop.getProperty("Password"));
+		MailBoxPage mailboxpage=passwordpage.EnterPassword("Jijastic@1");
+
 
 		// driver.quit();
 	}
