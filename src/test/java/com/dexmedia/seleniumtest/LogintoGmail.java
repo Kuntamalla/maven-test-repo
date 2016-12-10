@@ -31,9 +31,11 @@ public class LogintoGmail {
 		System.out.println("After Browser initiating");
 		
 		driver = new ChromeDriver();
+		System.out.println("Chrome Driver Called");
 		//driver = new FirefoxDriver();
 		File propertyfile = new File(
 				"src/test/resources/Execution_Parameters.properties");
+		System.out.println("Property file called");
 
 		FileInputStream fileInput = null;
 		try {
