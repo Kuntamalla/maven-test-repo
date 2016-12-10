@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11515" started-at="2016-12-10T03:34:08Z" finished-at="2016-12-10T03:34:19Z">
+  <suite name="Default suite" duration-ms="9954" started-at="2016-12-10T16:50:06Z" finished-at="2016-12-10T16:50:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11515" started-at="2016-12-10T03:34:08Z" finished-at="2016-12-10T03:34:19Z">
+    <test name="Default test" duration-ms="9954" started-at="2016-12-10T16:50:06Z" finished-at="2016-12-10T16:50:16Z">
       <class name="com.dexmedia.seleniumtest.LogintoGmail">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dexmedia.seleniumtest.LogintoGmail@4566e5bd]" name="setUp" is-config="true" duration-ms="6586" started-at="2016-12-09T19:34:08Z" finished-at="2016-12-09T19:34:14Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dexmedia.seleniumtest.LogintoGmail@4566e5bd]" name="setUp" is-config="true" duration-ms="6706" started-at="2016-12-10T08:50:06Z" finished-at="2016-12-10T08:50:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testbookie()[pri:0, instance:com.dexmedia.seleniumtest.LogintoGmail@4566e5bd]" name="testbookie" duration-ms="4919" started-at="2016-12-09T19:34:14Z" finished-at="2016-12-09T19:34:19Z">
+        <test-method status="PASS" signature="testbookie()[pri:0, instance:com.dexmedia.seleniumtest.LogintoGmail@4566e5bd]" name="testbookie" duration-ms="3237" started-at="2016-12-10T08:50:12Z" finished-at="2016-12-10T08:50:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testbookie -->

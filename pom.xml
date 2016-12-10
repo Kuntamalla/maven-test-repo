@@ -24,6 +24,12 @@
     <version>2.44.0</version>
 </dependency>
 
+<!-- <dependency>
+  <groupId>org.seleniumhq.selenium</groupId>
+  <artifactId>selenium-server-standalone</artifactId>
+  <version>2.44.0</version>
+</dependency>
+ -->
 	
 <!-- 	<dependency>
 			<groupId>com.dexmedia.qa</groupId>
