@@ -27,11 +27,11 @@ public class LogintoGmail {
 	@BeforeClass
 	public void setUp() throws Exception {
 		System.out.println("Browser initiating");
-		//File file = new File("src/test/resources/chromedriver.exe");
-		//System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
+		File file = new File("src/test/resources/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
 		System.out.println("After Browser initiating");
 		
-		driver = new SafariDriver();
+		driver = new ChromeDriver();
 		System.out.println("Chrome Driver Called");
 		
 		Thread.sleep(5000);
